@@ -25,7 +25,7 @@ Convert::Morse - pakiet do konwersji miêdzy ASCII i kodem MORSE'a.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
