@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	Morse
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert-Recode perl module
 Summary(pl):	Modu³ perla Convert-Morse
 Name:		perl-Convert-Morse
 Version:	0.03
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Convert-Morse - package to convert between ASCII and MORSE code.
 Convert-Morse - pakiet do konwersji miêdzy ASCII i kodem MORSE'a.
 
 %prep
-%setup -q -n Convert-Morse-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %build
 perl Makefile.PL
 %{__make}
