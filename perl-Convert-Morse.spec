@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	Morse
+%define		pdir	Convert
+%define		pnam	Morse
 Summary:	Convert-Recode - convert between ASCII text and MORSE alphabet
 Summary(pl):	Convert::Morse - konwersja pomiêdzy tekstem ASCII i alfabetem MORSE'a
 Name:		perl-Convert-Morse
