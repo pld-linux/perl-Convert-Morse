@@ -2,8 +2,8 @@
 Summary:	Convert-Recode perl module
 Summary(pl):	Modu³ perla Convert-Morse
 Name:		perl-Convert-Morse
-Version:	0.0.2
-Release:	2
+Version:	0.03
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -22,7 +22,7 @@ Convert-Morse - package to convert between ASCII and MORSE code.
 Convert-Morse - pakiet do konwersji miêdzy ASCII i kodem MORSE'a.
 
 %prep
-%setup -q -c -n Convert-Morse-%{version}
+%setup -q -n Convert-Morse-%{version}
 %build
 perl Makefile.PL
 %{__make}
