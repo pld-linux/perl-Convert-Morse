@@ -3,7 +3,7 @@ Summary:	Convert-Recode perl module
 Summary(pl):	Modu³ perla Convert-Morse
 Name:		perl-Convert-Morse
 Version:	0.03
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
