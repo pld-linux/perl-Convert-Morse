@@ -2,7 +2,7 @@
 %define	pdir	Convert
 %define	pnam	Morse
 Summary:	Convert-Recode perl module
-Summary(pl):	Modu³ perla Convert-Morse
+Summary(pl):	Modu³ perla Convert::Morse
 Name:		perl-Convert-Morse
 Version:	0.03
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-Morse - package to convert between ASCII and MORSE code.
+Convert::Morse - package to convert between ASCII and MORSE code.
 
 %description -l pl
-Convert-Morse - pakiet do konwersji miêdzy ASCII i kodem MORSE'a.
+Convert::Morse - pakiet do konwersji miêdzy ASCII i kodem MORSE'a.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
