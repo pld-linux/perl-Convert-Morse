@@ -28,23 +28,16 @@ perl Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-(
-  cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Convert/Morse
-  sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
-)
-
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
-        Changes README
+gzip -9nf Changes README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc {Changes,README}.gz
+%doc *.gz
 %{perl_sitelib}/Convert/Morse.pm
-%{perl_sitearch}/auto/Convert/Morse
 %{_mandir}/man3/*
