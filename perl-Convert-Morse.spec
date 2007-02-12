@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	Morse
 Summary:	Convert-Recode - convert between ASCII text and MORSE alphabet
-Summary(pl):	Convert::Morse - konwersja pomiêdzy tekstem ASCII i alfabetem MORSE'a
+Summary(pl.UTF-8):   Convert::Morse - konwersja pomiÄ™dzy tekstem ASCII i alfabetem MORSE'a
 Name:		perl-Convert-Morse
 Version:	0.04
 Release:	1
@@ -24,10 +24,10 @@ Convert::Morse Perl module lets you convert between normal ASCII text
 and international MORSE code.  You can redefine the token sets, if you
 like.
 
-%description -l pl
-Modu³ Perla Convert::Morse pozwala na konwersjê pomiêdzy zwyk³ym
-tekstem w ASCII a muiêdzynarodowym kodem MORSE'a. Umo¿liwia
-zredefiniowanie znaczenia kodów MORSE'a.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Convert::Morse pozwala na konwersjÄ™ pomiÄ™dzy zwykÅ‚ym
+tekstem w ASCII a muiÄ™dzynarodowym kodem MORSE'a. UmoÅ¼liwia
+zredefiniowanie znaczenia kodÃ³w MORSE'a.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
