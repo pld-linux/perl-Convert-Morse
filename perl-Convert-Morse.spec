@@ -8,12 +8,12 @@
 Summary:	Convert-Recode - convert between ASCII text and MORSE alphabet
 Summary(pl.UTF-8):	Convert::Morse - konwersja pomiędzy tekstem ASCII i alfabetem MORSE'a
 Name:		perl-Convert-Morse
-Version:	0.05
+Version:	0.06
 Release:	1
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Convert/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	785cf77e1057e19f8a6e735a4736a4b1
+# Source0-md5:	cf0c1c43ead9c10ae9e4ac7a8479ac5f
 URL:		http://search.cpan.org/dist/Convert-Morse/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
